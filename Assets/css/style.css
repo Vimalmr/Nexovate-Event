@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'news-title';
+    src: url('../fonts/Oldnewspapertypes-449D.ttf') format('truetype');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    /* background: url("../img/360_F_319501986_BagejDAWAWcVi1WQNuS9SgG3R0Ys3KM4.jpg"); */
+    /* background: linear-gradient(rgb(182, 162, 127), wheat); */
+    
+    /* background-repeat: no-repeat;
+    background-position: fixed; */
+    width: auto;
+    height: 760px;
+}
+
+.header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    
+}
+
+.header-img{
+    width: 9%;
+}
+
+.title-text{
+    font-size: 6rem;
+    font-family: news-title;
+    color: rgb(90, 30, 0);
+    /* color: black; */
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sub-title{
+    font-family: news-title;
+    color: rgb(90, 30, 0);
+    margin: 0;
+}
+
+.navigation{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.nav-link{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-decoration: none;
+    color: rgb(90, 30, 0);
+}
+
+.nav-link:hover{
+    color: rgb(21, 7, 0);
+}
+
+.home-content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headline{
+    font-size: 2.5rem;
+}
+
+.home-img{
+    width: 36vw;
+}
+
+.home-content p{
+    padding-left: 3vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .title-text{
+        font-size: 1rem;
+    }
+
+    .sub-title{
+        font-size: 0.6rem;
+    }
+
+    .header-img{
+        width: 15%;
+    }
+
+    .headline{
+        font-size: 1.5rem;
+    }
+
+    .home-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-img{
+        width: 45vh;
+    }
+  }
