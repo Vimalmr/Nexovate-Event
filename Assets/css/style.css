@@ -474,6 +474,10 @@ body {
     iframe{
         display: none;
     }
+
+    .end p{
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 768px) {
