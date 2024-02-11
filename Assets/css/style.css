@@ -102,7 +102,6 @@ body {
     font-size: 1.2rem;
     text-align: justify;
     margin-top: 10px;
-    display: flex;
     justify-content: space-between;
     letter-spacing: 1.2px;
 }
@@ -119,7 +118,9 @@ body {
     width: 37vw;
     border-radius: 5px;
     box-shadow: 2px 2px 20px;
-
+    margin-left: 20px;
+    color: black;
+    float: right;
 }
 
 .home-content p{
@@ -191,7 +192,7 @@ body {
 }
 
 .contest-img{
-    max-width: 20vw;
+    max-width: 15vw;
     /* border: 2px solid black; */
     box-shadow: 5px 5px 10px;
     border-radius: 8px;
@@ -317,7 +318,7 @@ body {
     color: black;
     font-weight: bold;
     font-size: 1.4rem;
-    width: 100%;
+    width: 50%;
     height: 50px;
     background-color: rgb(241, 202, 166);
     border: none;
@@ -345,7 +346,6 @@ body {
 .timely_title {
     font-family: news-title, serif;
     width: 100%;
-    height: 75px;
     margin-top: 0px;
     text-align: center;
     /* background-color: rgb(67,49,34); */
@@ -372,7 +372,7 @@ body {
 #title1 {
     padding: 0px;
     margin-top: 20px;
-    display: inline-block;
+    margin-bottom: 20px;
     font-size: 35px;
 }
   
@@ -461,10 +461,13 @@ body {
     .home-content{
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .home-img{
+        float: none;
         width: 45vh;
+        margin-left: 0;
     }
 
     .cont2 {
