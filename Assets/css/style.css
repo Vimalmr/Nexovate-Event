@@ -103,6 +103,7 @@ body {
     text-align: justify;
     margin-top: 10px;
     justify-content: space-between;
+    hyphens: auto;
     letter-spacing: 1.2px;
 }
 
@@ -209,7 +210,11 @@ body {
     padding-right: 15px;
 }
 
-.about-img{
+.about-img1{
+    max-width: 10vw;
+}
+
+.about-img2{
     max-width: 14vw;
 }
 
@@ -534,7 +539,12 @@ body {
         font-size: 0.9rem;
     }
 
-    .about-img{
+    .about-img1{
+        max-width: 15vh;
+        margin-bottom: 20px;
+    }
+
+    .about-img2{
         max-width: 20vh;
         margin-bottom: 20px;
     }
