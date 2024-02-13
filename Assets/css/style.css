@@ -168,6 +168,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: large;
+    transition: color 0.3s ease
 }
 
 .cont1 a:hover{
@@ -215,7 +216,7 @@ body {
 }
 
 .about-img2{
-    max-width: 14vw;
+    max-width: 10vw;
 }
 
 #contest{
@@ -266,6 +267,7 @@ body {
     border-bottom-right-radius: 225px 15px;
     border-bottom-left-radius:15px 255px;
     box-shadow: 0px 0px 20px rgb(67,49,34);
+    transition: box-shadow 0.3s ease;
 }
 
 .register:hover{
@@ -288,7 +290,7 @@ body {
   }
   
 
-.modal {
+.modal,.modal1 {
     display: none;
     position: fixed;
     z-index: 1;
@@ -300,7 +302,7 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
   }
   
-  .modal-content {
+  .modal-content, .modal-content1 {
     margin: auto;
     margin-top: 3%;
     padding: 20px;
@@ -309,11 +311,11 @@ body {
     text-align: center;
   }
 
-  .modal-content img{
+  .modal-content img, .modal-content1 img{
     max-width: 50%;
   }
   
-  .cancel-btn {
+  .cancel-btn, .cancel-btn1 {
     margin-top: 18px;
     background-color: #ff7f50;
     color: #fff;
@@ -322,12 +324,26 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .cancel-btn:hover {
-    background-color: #ff6347;
-  }
+}
 
+.cancel-btn:hover, .cancel-btn1:hover {
+    background-color: #ff6347;
+}
+
+.prob-btn1{
+    margin-top: 18px;
+    background-color: #3be14c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.prob-btn1:hover {
+    background-color: #34be42;
+}
 
 .timely {
     border-top-left-radius: 255px 15px;
@@ -355,11 +371,12 @@ body {
     border-bottom-right-radius: 225px 15px;
     border-bottom-left-radius:15px 255px;
     box-shadow: 2px 2px 10px;
+    transition: box-shadow 0.3s ease;
 }
 
 .download_schedule:hover{
     cursor: pointer;
-    box-shadow: 2px 2px 30px;
+    box-shadow: 2px 2px 20px;
 }
   
 .parent {
